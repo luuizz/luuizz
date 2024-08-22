@@ -2,7 +2,7 @@
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luiz-ricardo-da-silva-tezoto-66807567/)](https://www.linkedin.com/in/luiz-ricardo-da-silva-tezoto-66807567/)
 [![Gmail Badge](https://img.shields.io/badge/-luuizzsilvats@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luuizzsilvats@gmail.com)](mailto:luuizzsilvats@gmail.com)
-[![Website Badge](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=globe&logoColor=white&link=https://www.luizricardodesign.com.br)](https://www.luizricardodesign.com.br)
+[![Website Badge](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=globe&logoColor=white&link=https://www.luizricardodsgn.com.br)](https://www.luizricardodsgn.com.br)
 
 Sou um Desenvolvedor Front-End focado em **Next.js** e **PHP**, com uma forte base em Design Gráfico e experiência na criação de interfaces intuitivas e eficientes. Atualmente, atuo como Freelancer e também como CLT em uma empresa de tecnologia privada.
 
