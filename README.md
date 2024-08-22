@@ -42,16 +42,6 @@ Sou um Desenvolvedor Front-End focado em **Next.js** e **PHP**, com uma forte ba
 <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luuizz&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
----
-
-![Snake animation](https://github.com/luuizz/luuizz/blob/output/github-contribution-grid-snake.svg)
-
 --
 
-## 📫 Entre em Contato
-
-- **E-mail**: [luuizzsilvats@gmail.com](mailto:luuizzsilvats@gmail.com)
-- **LinkedIn**: [Luiz Ricardo da Silva Tezoto](https://www.linkedin.com/in/luiz-ricardo-da-silva-tezoto-66807567/)
-- **Portfólio**: [www.luizricardodesign.com.br](https://www.luizricardodesign.com.br)
-
----
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=luuizz.luuizz)
