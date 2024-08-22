@@ -41,6 +41,7 @@ Sou um Desenvolvedor Front-End focado em **Next.js** e **PHP**, com uma forte ba
 <div>
 <a href="https://github.com/luuizz">
 <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luuizz&layout=compact&langs_count=7&theme=dracula"/>
+</a>
 </div>
 
 --
