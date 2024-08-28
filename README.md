@@ -46,4 +46,8 @@ Sou um Desenvolvedor Front-End focado em **Next.js** e **PHP**, com uma forte ba
 
 --
 
+![Snake animation](https://github.com/luuizz/luuizz/blob/output/github-contribution-grid-snake.svg)
+
+--
+
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=luuizz.luuizz)
