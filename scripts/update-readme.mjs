@@ -1,12 +1,10 @@
-// Gera a lista de projetos do README e o gráfico de linguagens a partir dos repositórios públicos.
+// Gera a lista de projetos do README a partir dos repositórios públicos.
 // Uso local: GITHUB_TOKEN=$(gh auth token) node scripts/update-readme.mjs
 
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 
 const USER = "luuizz";
 const README = new URL("../README.md", import.meta.url);
-const CHART = new URL("../assets/linguagens.svg", import.meta.url);
-const VISIBLE_ROWS = 6;
 const MAX_DESCRIPTION = 90;
 
 // Repositórios que não entram na lista, mesmo sendo públicos.
@@ -14,19 +12,15 @@ const HIDDEN = new Set([USER, "social-tree-discover"]);
 
 // Descrições para repositórios que não têm uma no GitHub.
 const DESCRIPTIONS = {
-  "zap-flutuante": "Plugin de botão flutuante de WhatsApp, com painel em React e rastreio de UTM.",
-  "wordpress-docker-boilerplate": "Stack Docker para iniciar projetos WordPress com PHP-FPM, Nginx e MariaDB.",
   "frontdev-theme": "Tema WordPress do FrontDev.",
-  "theme-rankdone": "Tema WordPress do blog da Rankdone, com PHP, SCSS e Gulp.",
   "mv-slider-plugin": "Plugin de slider para WordPress, com post type e shortcode próprios.",
-  "luizricardo-portfolio": "Meu portfólio pessoal.",
   orbit: "API com Fastify, Drizzle ORM e PostgreSQL.",
 };
 
 const GROUPS = [
-  { id: "wordpress", title: "WordPress", open: true },
-  { id: "laravel", title: "Laravel", open: true },
-  { id: "react", title: "React & Next.js", open: true },
+  { id: "wordpress", title: "WordPress" },
+  { id: "laravel", title: "Laravel" },
+  { id: "react", title: "React & Next.js" },
   { id: "angular", title: "Angular" },
   { id: "node", title: "Node.js" },
   { id: "other", title: "HTML, CSS & PHP" },
@@ -159,19 +153,14 @@ function renderTable(items) {
 
 function renderGroup(group, items) {
   const label = items.length === 1 ? "1 projeto" : `${items.length} projetos`;
-  const parts = [
-    `<details${group.open ? " open" : ""}>`,
+  return [
+    "<details>",
     `<summary><strong>${group.title}</strong> · ${label}</summary>`,
     "",
-    renderTable(items.slice(0, VISIBLE_ROWS)),
+    renderTable(items),
     "",
-  ];
-  const rest = items.slice(VISIBLE_ROWS);
-  if (rest.length > 0) {
-    parts.push("<details>", `<summary>Ver mais ${rest.length}</summary>`, "", renderTable(rest), "", "</details>", "");
-  }
-  parts.push("</details>");
-  return parts.join("\n");
+    "</details>",
+  ].join("\n");
 }
 
 function renderProjects(items) {
@@ -182,53 +171,6 @@ function renderProjects(items) {
     .join("\n\n");
 }
 
-function countLanguages(items) {
-  const counts = new Map();
-  for (const { repo } of items) {
-    if (repo.language) counts.set(repo.language, (counts.get(repo.language) ?? 0) + 1);
-  }
-  const sorted = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-  const top = sorted.slice(0, 6);
-  const others = sorted.slice(6).reduce((sum, [, count]) => sum + count, 0);
-  if (others > 0) top.push(["Outras", others]);
-  return top;
-}
-
-function renderChart(languages) {
-  const rowHeight = 32;
-  const barHeight = 14;
-  const labelWidth = 112;
-  const valueWidth = 40;
-  const width = 640;
-  const height = languages.length * rowHeight;
-  const scale = (width - labelWidth - valueWidth) / Math.max(...languages.map(([, count]) => count));
-
-  const rows = languages.map(([name, count], index) => {
-    const barWidth = Math.max(count * scale, 4);
-    const y = index * rowHeight + (rowHeight - barHeight) / 2;
-    const textY = index * rowHeight + rowHeight / 2 + 4.5;
-    const bar = `M${labelWidth} ${y}h${barWidth - 4}a4 4 0 0 1 4 4v${barHeight - 8}a4 4 0 0 1-4 4h-${barWidth - 4}z`;
-    return [
-      `  <text class="label" x="${labelWidth - 12}" y="${textY}" text-anchor="end">${name}</text>`,
-      `  <path class="bar" d="${bar}"/>`,
-      `  <text class="value" x="${labelWidth + barWidth + 8}" y="${textY}">${count}</text>`,
-    ].join("\n");
-  });
-
-  const summary = languages.map(([name, count]) => `${name}: ${count}`).join(", ");
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-labelledby="title">
-  <title id="title">Repositórios públicos por linguagem principal. ${summary}</title>
-  <style>
-    text { font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .label { fill: #6e7781; }
-    .value { fill: #6e7781; font-weight: 600; }
-    .bar { fill: #2a78d6; }
-  </style>
-${rows.join("\n")}
-</svg>
-`;
-}
-
 function replaceBlock(text, name, content) {
   const pattern = new RegExp(`(<!-- ${name}:inicio -->)[\\s\\S]*?(<!-- ${name}:fim -->)`);
   if (!pattern.test(text)) throw new Error(`Marcador "${name}" não encontrado no README`);
@@ -236,15 +178,8 @@ function replaceBlock(text, name, content) {
 }
 
 const items = await inspectAll(await listPublicRepos());
-const languages = countLanguages(items);
-const alt = `Repositórios públicos por linguagem principal. ${languages.map(([name, count]) => `${name}: ${count}`).join(", ")}`;
 
-let readme = await readFile(README, "utf8");
-readme = replaceBlock(readme, "projetos", renderProjects(items));
-readme = replaceBlock(readme, "linguagens", `<img src="assets/linguagens.svg" width="640" alt="${alt}" />`);
-
-await mkdir(new URL(".", CHART), { recursive: true });
-await writeFile(CHART, renderChart(languages));
-await writeFile(README, readme);
+const readme = await readFile(README, "utf8");
+await writeFile(README, replaceBlock(readme, "projetos", renderProjects(items)));
 
 console.log(`${items.length} repositórios listados`);

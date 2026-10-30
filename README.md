@@ -19,18 +19,8 @@ Sou desenvolvedor front-end com formação em Design Gráfico. Hoje trabalho pri
 **Também uso**
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8)
-![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
-![Strapi](https://img.shields.io/badge/Strapi-4945FF?style=flat-square&logo=strapi&logoColor=white)
-![Sanity](https://img.shields.io/badge/Sanity-F03E2F?style=flat-square&logo=sanity&logoColor=white)
-![Prismic](https://img.shields.io/badge/Prismic-5163BA?style=flat-square&logo=prismic&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Gulp](https://img.shields.io/badge/Gulp-CF4647?style=flat-square&logo=gulp&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-1E1E1E?style=flat-square&logo=figma&logoColor=white)
 
 ## ⭐ Destaques
@@ -42,39 +32,33 @@ Sou desenvolvedor front-end com formação em Design Gráfico. Hoje trabalho pri
 
 ## 🖥️ Projetos públicos
 
-Lista atualizada automaticamente todos os dias, do projeto mais recente para o mais antigo.
+Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os projetos, do mais recente para o mais antigo.
 
 <!-- projetos:inicio -->
-<details open>
+<details>
 <summary><strong>WordPress</strong> · 5 projetos</summary>
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
 | --- | --- | --- | --- | --- |
 | [mv-slider-plugin](https://github.com/luuizz/mv-slider-plugin) | Plugin de slider para WordPress, com post type e shortcode próprios. | WordPress | — | fev/2026 |
 | [frontdev-theme](https://github.com/luuizz/frontdev-theme) | Tema WordPress do FrontDev. | WordPress | — | fev/2026 |
-| [zap-flutuante](https://github.com/luuizz/zap-flutuante) | Plugin de botão flutuante de WhatsApp, com painel em React e rastreio de UTM. | WordPress | — | fev/2026 |
+| [zap-flutuante](https://github.com/luuizz/zap-flutuante) | Plugin WordPress de botão flutuante de WhatsApp, com painel em React e rastreio de UTM. | WordPress | — | fev/2026 |
 | [wordpress-docker-boilerplate](https://github.com/luuizz/wordpress-docker-boilerplate) | Stack Docker para iniciar projetos WordPress com PHP-FPM, Nginx e MariaDB. | WordPress, Docker | — | out/2025 |
 | [theme-rankdone](https://github.com/luuizz/theme-rankdone) | Tema WordPress do blog da Rankdone, com PHP, SCSS e Gulp. | WordPress, Sass, Gulp | — | ago/2024 |
 
 </details>
 
-<details open>
+<details>
 <summary><strong>React & Next.js</strong> · 30 projetos</summary>
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
 | --- | --- | --- | --- | --- |
 | [estudio-capim](https://github.com/luuizz/estudio-capim) | — | Next.js, TypeScript, GSAP | — | out/2026 |
-| [luizricardo-portfolio](https://github.com/luuizz/luizricardo-portfolio) | Meu portfólio pessoal. | Next.js, TypeScript, Tailwind, GSAP | [Abrir](https://luizricardotech.vercel.app) | jun/2026 |
-| [frontdev](https://github.com/luuizz/frontdev) | — | React, TypeScript | — | fev/2026 |
+| [luizricardo-portfolio](https://github.com/luuizz/luizricardo-portfolio) | Meu portfólio pessoal, feito com Next.js, Tailwind CSS e GSAP. | Next.js, TypeScript, Tailwind, GSAP | [Abrir](https://luizricardotech.vercel.app) | jun/2026 |
+| [frontdev](https://github.com/luuizz/frontdev) | Front-end do FrontDev em React, TypeScript e Vite. | React, TypeScript | — | fev/2026 |
 | [fintech](https://github.com/luuizz/fintech) | — | React, TypeScript, Sass | — | jun/2025 |
 | [dogs-social](https://github.com/luuizz/dogs-social) | Projeto criado para poder explorar o framework do React. Neste projeto eu utilizo a API… | React, Sass | [Abrir](https://luric-dogs-social.netlify.app/) | mai/2025 |
 | [kaechocolates-next](https://github.com/luuizz/kaechocolates-next) | — | Next.js, TypeScript | — | abr/2025 |
-
-<details>
-<summary>Ver mais 24</summary>
-
-| Projeto | Sobre | Stack | Demo | Atualizado |
-| --- | --- | --- | --- | --- |
 | [zarrin-blog](https://github.com/luuizz/zarrin-blog) | — | Next.js, TypeScript, Tailwind | — | abr/2025 |
 | [structboost-styled](https://github.com/luuizz/structboost-styled) | Projeto de estudo utilizando o styled-components para estilização de um… | Next.js | [Abrir](https://strucboost-styled.vercel.app/) | abr/2025 |
 | [flowrise](https://github.com/luuizz/flowrise) | Projeto desenvolvido para a empresa Flowrise | Next.js, TypeScript, Tailwind | — | mar/2025 |
@@ -99,8 +83,6 @@ Lista atualizada automaticamente todos os dias, do projeto mais recente para o m
 | [ia-upload](https://github.com/luuizz/ia-upload) | Projeto realizado durante o evento da Rocketseat, onde está sendo construído uma… | React, TypeScript, Tailwind | — | set/2023 |
 | [whatif-codeboost](https://github.com/luuizz/whatif-codeboost) | — | Next.js, TypeScript | — | set/2023 |
 | [bizzgu](https://github.com/luuizz/bizzgu) | Projeto destinado as aulas da Coderhouse. Neste projeto será construído o front-end de… | React | [Abrir](https://loja-bizzgu.netlify.app/) | set/2023 |
-
-</details>
 
 </details>
 
@@ -137,12 +119,6 @@ Lista atualizada automaticamente todos os dias, do projeto mais recente para o m
 | [gulp-php](https://github.com/luuizz/gulp-php) | — | Sass, Gulp | — | ago/2025 |
 | [estudo-node](https://github.com/luuizz/estudo-node) | Projeto realizado durante o curso da Dio.me, nele eu pratico os fundamentos do Node.js e… | JavaScript | — | jun/2025 |
 | [wildbeast](https://github.com/luuizz/wildbeast) | — | Sass | — | jun/2025 |
-
-<details>
-<summary>Ver mais 24</summary>
-
-| Projeto | Sobre | Stack | Demo | Atualizado |
-| --- | --- | --- | --- | --- |
 | [template-gmail](https://github.com/luuizz/template-gmail) | — | HTML | [Abrir](https://luuizz.github.io/template-gmail/) | jan/2025 |
 | [forest](https://github.com/luuizz/forest) | Forest - Site oficial da empresa que conecta pessoas à natureza, oferecendo estadias e… | Tailwind | [Abrir](https://forest-ten-psi.vercel.app/) | jan/2025 |
 | [aula-boost](https://github.com/luuizz/aula-boost) | Projeto desenvolvido durante a aula do Codeboost. | Sass, Gulp | [Abrir](https://teslabot-mocha.vercel.app/) | nov/2024 |
@@ -169,14 +145,4 @@ Lista atualizada automaticamente todos os dias, do projeto mais recente para o m
 | [desafio-final-sw](https://github.com/luuizz/desafio-final-sw) | Desafio do curso de desenvolvimento Web da Coderhouse, nele trabalhamos em um site… | HTML | — | jan/2023 |
 
 </details>
-
-</details>
 <!-- projetos:fim -->
-
-## 📊 Linguagens
-
-Linguagem principal dos meus repositórios públicos.
-
-<!-- linguagens:inicio -->
-<img src="assets/linguagens.svg" width="640" alt="Repositórios públicos por linguagem principal. TypeScript: 22, JavaScript: 17, SCSS: 15, HTML: 9, CSS: 4, PHP: 3" />
-<!-- linguagens:fim -->

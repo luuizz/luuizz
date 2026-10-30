@@ -24,14 +24,14 @@ jobs:
         with:
           node-version: 24
 
-      - name: Gerar README e gráfico
+      - name: Gerar README
         run: node scripts/update-readme.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Salvar alterações
         run: |
-          git add README.md assets
+          git add README.md
           if git diff --cached --quiet; then
             echo "Nada mudou."
             exit 0
