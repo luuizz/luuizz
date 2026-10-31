@@ -124,7 +124,7 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 | [aula-boost](https://github.com/luuizz/aula-boost) | Projeto desenvolvido durante a aula do Codeboost. | Sass, Gulp | [Abrir](https://teslabot-mocha.vercel.app/) | nov/2024 |
 | [transition-home](https://github.com/luuizz/transition-home) | — | HTML | [Abrir](https://luuizz.github.io/transition-home/) | nov/2024 |
 | [doctocare-vite](https://github.com/luuizz/doctocare-vite) | — | TypeScript, Sass | — | set/2024 |
-| [bankboost](https://github.com/luuizz/bankboost) | Projeto do curso Codeboost, com o boilerplate do Vite | TypeScript, Sass | [Abrir](https://bankboost.netlify.app/) | ago/2024 |
+| [bankboost](https://github.com/luuizz/bankboost) | Projeto do curso Codeboost, com o boilerplate do Vite | TypeScript, Sass | — | ago/2024 |
 | [luiz-ricardo-dsgn](https://github.com/luuizz/luiz-ricardo-dsgn) | — | Sass, Gulp | [Abrir](https://luuizz.github.io/luiz-ricardo-dsgn/) | mai/2024 |
 | [figpro](https://github.com/luuizz/figpro) | Projeto realizado durante as aulas do curso Codeboost. Neste projeto está sendo… | Sass, Gulp | [Abrir](https://figpro-codeboost.netlify.app/) | mar/2024 |
 | [blog-rankdone](https://github.com/luuizz/blog-rankdone) | Blog criado para a empresa Rankdone | Sass, Gulp | [Abrir](https://blog-rankdone.netlify.app/) | mar/2024 |
