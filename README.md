@@ -53,6 +53,7 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
 | --- | --- | --- | --- | --- |
+| [bizzgu](https://github.com/luuizz/bizzgu) | Projeto destinado as aulas da Coderhouse. Neste projeto será construído o front-end de… | React | [Abrir](https://loja-bizzgu.netlify.app/) | nov/2026 |
 | [estudio-capim](https://github.com/luuizz/estudio-capim) | — | Next.js, TypeScript, GSAP | — | out/2026 |
 | [luizricardo-portfolio](https://github.com/luuizz/luizricardo-portfolio) | Meu portfólio pessoal, feito com Next.js, Tailwind CSS e GSAP. | Next.js, TypeScript, Tailwind, GSAP | [Abrir](https://luizricardotech.vercel.app) | jun/2026 |
 | [frontdev](https://github.com/luuizz/frontdev) | Front-end do FrontDev em React, TypeScript e Vite. | React, TypeScript | — | fev/2026 |
@@ -82,7 +83,6 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 | [case-study-itau](https://github.com/luuizz/case-study-itau) | — | Next.js, TypeScript, Tailwind | — | out/2023 |
 | [ia-upload](https://github.com/luuizz/ia-upload) | Projeto realizado durante o evento da Rocketseat, onde está sendo construído uma… | React, TypeScript, Tailwind | — | set/2023 |
 | [whatif-codeboost](https://github.com/luuizz/whatif-codeboost) | — | Next.js, TypeScript | — | set/2023 |
-| [bizzgu](https://github.com/luuizz/bizzgu) | Projeto destinado as aulas da Coderhouse. Neste projeto será construído o front-end de… | React | [Abrir](https://loja-bizzgu.netlify.app/) | set/2023 |
 
 </details>
 
