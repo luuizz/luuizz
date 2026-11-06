@@ -53,13 +53,13 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
 | --- | --- | --- | --- | --- |
-| [bizzgu](https://github.com/luuizz/bizzgu) | Projeto destinado as aulas da Coderhouse. Neste projeto será construído o front-end de… | React | [Abrir](https://loja-bizzgu.netlify.app/) | nov/2026 |
+| [kaechocolates-next](https://github.com/luuizz/kaechocolates-next) | — | Next.js, TypeScript, Tailwind | — | nov/2026 |
+| [bizzgu](https://github.com/luuizz/bizzgu) | Projeto destinado as aulas da Coderhouse. Neste projeto será construído o front-end de… | React | [Abrir](https://bizzgu.vercel.app/) | nov/2026 |
 | [estudio-capim](https://github.com/luuizz/estudio-capim) | — | Next.js, TypeScript, GSAP | — | out/2026 |
 | [luizricardo-portfolio](https://github.com/luuizz/luizricardo-portfolio) | Meu portfólio pessoal, feito com Next.js, Tailwind CSS e GSAP. | Next.js, TypeScript, Tailwind, GSAP | [Abrir](https://luizricardotech.vercel.app) | jun/2026 |
 | [frontdev](https://github.com/luuizz/frontdev) | Front-end do FrontDev em React, TypeScript e Vite. | React, TypeScript | — | fev/2026 |
 | [fintech](https://github.com/luuizz/fintech) | — | React, TypeScript, Sass | — | jun/2025 |
 | [dogs-social](https://github.com/luuizz/dogs-social) | Projeto criado para poder explorar o framework do React. Neste projeto eu utilizo a API… | React, Sass | [Abrir](https://luric-dogs-social.netlify.app/) | mai/2025 |
-| [kaechocolates-next](https://github.com/luuizz/kaechocolates-next) | — | Next.js, TypeScript | — | abr/2025 |
 | [zarrin-blog](https://github.com/luuizz/zarrin-blog) | — | Next.js, TypeScript, Tailwind | — | abr/2025 |
 | [structboost-styled](https://github.com/luuizz/structboost-styled) | Projeto de estudo utilizando o styled-components para estilização de um… | Next.js | [Abrir](https://strucboost-styled.vercel.app/) | abr/2025 |
 | [flowrise](https://github.com/luuizz/flowrise) | Projeto desenvolvido para a empresa Flowrise | Next.js, TypeScript, Tailwind | — | mar/2025 |
