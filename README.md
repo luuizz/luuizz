@@ -53,7 +53,7 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
 | --- | --- | --- | --- | --- |
-| [instasany](https://github.com/luuizz/instasany) | — | Next.js, TypeScript, Tailwind, GSAP | — | nov/2026 |
+| [instasany](https://github.com/luuizz/instasany) | — | Next.js, TypeScript, Tailwind, GSAP | [Abrir](https://instasany-code.vercel.app) | nov/2026 |
 | [kaechocolates-next](https://github.com/luuizz/kaechocolates-next) | — | Next.js, TypeScript, Tailwind | — | nov/2026 |
 | [bizzgu](https://github.com/luuizz/bizzgu) | Projeto destinado as aulas da Coderhouse. Neste projeto será construído o front-end de… | React | [Abrir](https://bizzgu.vercel.app/) | nov/2026 |
 | [estudio-capim](https://github.com/luuizz/estudio-capim) | — | Next.js, TypeScript, GSAP | — | out/2026 |
