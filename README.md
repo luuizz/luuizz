@@ -52,7 +52,7 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 </details>
 
 <details>
-<summary><strong>React & Next.js</strong> · 31 projetos</summary>
+<summary><strong>React & Next.js</strong> · 29 projetos</summary>
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
 | --- | --- | --- | --- | --- |
@@ -74,13 +74,11 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 | [atlantic](https://github.com/luuizz/atlantic) | — | Next.js, TypeScript, Tailwind | — | jan/2025 |
 | [hamilton-app](https://github.com/luuizz/hamilton-app) | — | Next.js, TypeScript, Tailwind | — | jan/2025 |
 | [untittled-ui](https://github.com/luuizz/untittled-ui) | — | Next.js, TypeScript, Tailwind | — | jul/2024 |
-| [blogboost-next](https://github.com/luuizz/blogboost-next) | — | Next.js | — | jun/2024 |
 | [cloudboost-vanilla](https://github.com/luuizz/cloudboost-vanilla) | — | Next.js | [Abrir](https://cloudboost-vanilla.vercel.app) | jun/2024 |
 | [structure-boost-vanilla](https://github.com/luuizz/structure-boost-vanilla) | Projeto desenvolvido  usando a API do vanilla-extract para fins de estudo. | Next.js | [Abrir](https://struct-vanilla.vercel.app/) | jun/2024 |
 | [whatif-seasontwo](https://github.com/luuizz/whatif-seasontwo) | Projeto do curso Codeboost. Neste projeto está sendo feito com o framework de JS-in-CSS… | Next.js | [Abrir](https://whatif-seasontwo.vercel.app/) | jun/2024 |
 | [awwards-lp](https://github.com/luuizz/awwards-lp) | — | Next.js, Sass, GSAP | — | mai/2024 |
 | [gsap-effect-list](https://github.com/luuizz/gsap-effect-list) | — | Next.js | — | mai/2024 |
-| [blogboost](https://github.com/luuizz/blogboost) | — | Next.js, Tailwind | — | mai/2024 |
 | [glisten-two-ai](https://github.com/luuizz/glisten-two-ai) | — | Next.js, TypeScript, Tailwind, GSAP | [Abrir](https://glistenai-nu.vercel.app) | abr/2024 |
 | [marvel-spiderman2](https://github.com/luuizz/marvel-spiderman2) | — | Next.js, Tailwind | — | dez/2023 |
 | [styled-components](https://github.com/luuizz/styled-components) | — | Next.js | [Abrir](https://styled-components-omega-lyart.vercel.app) | nov/2023 |
@@ -117,6 +115,7 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
 | --- | --- | --- | --- | --- |
+| [bankboost](https://github.com/luuizz/bankboost) | Projeto do curso Codeboost, com o boilerplate do Vite | TypeScript, Sass | [Abrir](https://bankboost.netlify.app/) | nov/2026 |
 | [delavie](https://github.com/luuizz/delavie) | — | Sass, Gulp | — | nov/2025 |
 | [rcc-construtora](https://github.com/luuizz/rcc-construtora) | — | Sass, Gulp | — | out/2025 |
 | [granviver](https://github.com/luuizz/granviver) | — | Sass, Gulp | — | ago/2025 |
@@ -128,7 +127,6 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 | [aula-boost](https://github.com/luuizz/aula-boost) | Projeto desenvolvido durante a aula do Codeboost. | Sass, Gulp | [Abrir](https://teslabot-mocha.vercel.app/) | nov/2024 |
 | [transition-home](https://github.com/luuizz/transition-home) | — | HTML | [Abrir](https://luuizz.github.io/transition-home/) | nov/2024 |
 | [doctocare-vite](https://github.com/luuizz/doctocare-vite) | — | TypeScript, Sass | — | set/2024 |
-| [bankboost](https://github.com/luuizz/bankboost) | Projeto do curso Codeboost, com o boilerplate do Vite | TypeScript, Sass | [Abrir](https://bankboost.netlify.app/) | ago/2024 |
 | [luiz-ricardo-dsgn](https://github.com/luuizz/luiz-ricardo-dsgn) | — | Sass, Gulp | [Abrir](https://luuizz.github.io/luiz-ricardo-dsgn/) | mai/2024 |
 | [figpro](https://github.com/luuizz/figpro) | Projeto realizado durante as aulas do curso Codeboost. Neste projeto está sendo… | Sass, Gulp | [Abrir](https://figpro-codeboost.netlify.app/) | mar/2024 |
 | [blog-rankdone](https://github.com/luuizz/blog-rankdone) | Blog criado para a empresa Rankdone | Sass, Gulp | [Abrir](https://blog-rankdone.netlify.app/) | mar/2024 |
