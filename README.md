@@ -25,6 +25,9 @@ Sou desenvolvedor front-end com formação em Design Gráfico. Hoje trabalho pri
 
 ## ⭐ Destaques
 
+- **[Instasany](https://github.com/luuizz/instasany):** [site e plataforma de cursos](https://instasany.luricweb.com.br) com área do aluno, player próprio, quizzes, certificados, notificações e painel com relatórios. Next.js 16, React 19, Neon com Drizzle, Neon Auth, Vercel Blob e Resend, com testes e2e no CI.
+- **[Kaê Chocolates](https://github.com/luuizz/kaechocolates-next):** [loja e clube de assinatura](https://kaechocolates.luricweb.com.br) com checkout Pix e cartão pelo Mercado Pago, frete e estoque decididos no Postgres e painel admin. Next.js 16, Neon e Resend.
+- **[Bizzgu](https://github.com/luuizz/bizzgu):** [e-commerce](https://bizzgu.vercel.app/) com catálogo, sacola, pedidos, lista de desejos e painel admin separado da loja. React, Vite, Neon e Vercel Blob.
 - **[Zap Flutuante Pro](https://github.com/luuizz/zap-flutuante):** plugin WordPress de botão flutuante de WhatsApp, com painel em React e rastreio de UTM.
 - **[WordPress Docker Boilerplate](https://github.com/luuizz/wordpress-docker-boilerplate):** stack Docker para iniciar projetos WordPress com PHP-FPM, Nginx e MariaDB.
 - **[Tema Rankdone](https://github.com/luuizz/theme-rankdone):** tema WordPress feito do zero para o blog da Rankdone, com PHP, SCSS e Gulp.
