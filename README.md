@@ -56,9 +56,9 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
 | --- | --- | --- | --- | --- |
-| [instasany](https://github.com/luuizz/instasany) | — | Next.js, TypeScript, Tailwind, GSAP | [Abrir](https://instasany-code.vercel.app) | nov/2026 |
-| [kaechocolates-next](https://github.com/luuizz/kaechocolates-next) | — | Next.js, TypeScript, Tailwind | — | nov/2026 |
-| [bizzgu](https://github.com/luuizz/bizzgu) | Projeto destinado as aulas da Coderhouse. Neste projeto será construído o front-end de… | React | [Abrir](https://bizzgu.vercel.app/) | nov/2026 |
+| [instasany](https://github.com/luuizz/instasany) | Site e plataforma de cursos (LMS) com área do aluno, quizzes, certificados e painel… | Next.js, TypeScript, Tailwind, GSAP | [Abrir](https://instasany.luricweb.com.br) | nov/2026 |
+| [kaechocolates-next](https://github.com/luuizz/kaechocolates-next) | Loja e clube de assinatura de chocolates, com checkout no Mercado Pago e painel admin. | Next.js, TypeScript, Tailwind | [Abrir](https://kaechocolates.luricweb.com.br) | nov/2026 |
+| [bizzgu](https://github.com/luuizz/bizzgu) | E-commerce com catálogo, sacola, pedidos, lista de desejos e painel admin. | React | [Abrir](https://bizzgu.vercel.app/) | nov/2026 |
 | [estudio-capim](https://github.com/luuizz/estudio-capim) | — | Next.js, TypeScript, GSAP | — | out/2026 |
 | [luizricardo-portfolio](https://github.com/luuizz/luizricardo-portfolio) | Meu portfólio pessoal, feito com Next.js, Tailwind CSS e GSAP. | Next.js, TypeScript, Tailwind, GSAP | [Abrir](https://luizricardotech.vercel.app) | jun/2026 |
 | [frontdev](https://github.com/luuizz/frontdev) | Front-end do FrontDev em React, TypeScript e Vite. | React, TypeScript | — | fev/2026 |
