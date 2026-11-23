@@ -15,6 +15,15 @@ const DESCRIPTIONS = {
   "frontdev-theme": "Tema WordPress do FrontDev.",
   "mv-slider-plugin": "Plugin de slider para WordPress, com post type e shortcode próprios.",
   orbit: "API com Fastify, Drizzle ORM e PostgreSQL.",
+  instasany: "Site e plataforma de cursos (LMS) com área do aluno, quizzes, certificados e painel próprio.",
+  "kaechocolates-next": "Loja e clube de assinatura de chocolates, com checkout no Mercado Pago e painel admin.",
+  bizzgu: "E-commerce com catálogo, sacola, pedidos, lista de desejos e painel admin.",
+};
+
+// Endereço publicado, quando é diferente do "Website" configurado no repositório.
+const DEMOS = {
+  instasany: "https://instasany.luricweb.com.br",
+  "kaechocolates-next": "https://kaechocolates.luricweb.com.br",
 };
 
 const GROUPS = [
@@ -109,7 +118,7 @@ async function inspect(repo) {
   ].filter(Boolean);
   if (stack.length === 0 && repo.language) stack.push(repo.language);
 
-  return { repo, group, stack: stack.slice(0, 4), demo: await checkedHomepage(repo.homepage) };
+  return { repo, group, stack: stack.slice(0, 4), demo: await checkedHomepage(DEMOS[repo.name] ?? repo.homepage) };
 }
 
 // Só mantém o link de demo se o site estiver respondendo.
