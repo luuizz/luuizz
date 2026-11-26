@@ -52,6 +52,15 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 </details>
 
 <details>
+<summary><strong>Laravel</strong> · 1 projeto</summary>
+
+| Projeto | Sobre | Stack | Demo | Atualizado |
+| --- | --- | --- | --- | --- |
+| [bankboost](https://github.com/luuizz/bankboost) | Projeto do curso Codeboost, com o boilerplate do Vite | Laravel, TypeScript, Tailwind | [Abrir](https://bankboost.netlify.app/) | nov/2026 |
+
+</details>
+
+<details>
 <summary><strong>React & Next.js</strong> · 29 projetos</summary>
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
@@ -111,11 +120,10 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 </details>
 
 <details>
-<summary><strong>HTML, CSS & PHP</strong> · 30 projetos</summary>
+<summary><strong>HTML, CSS & PHP</strong> · 29 projetos</summary>
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
 | --- | --- | --- | --- | --- |
-| [bankboost](https://github.com/luuizz/bankboost) | Projeto do curso Codeboost, com o boilerplate do Vite | TypeScript, Sass | [Abrir](https://bankboost.netlify.app/) | nov/2026 |
 | [delavie](https://github.com/luuizz/delavie) | — | Sass, Gulp | — | nov/2025 |
 | [rcc-construtora](https://github.com/luuizz/rcc-construtora) | — | Sass, Gulp | — | out/2025 |
 | [granviver](https://github.com/luuizz/granviver) | — | Sass, Gulp | — | ago/2025 |
