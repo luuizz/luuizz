@@ -120,10 +120,11 @@ Lista atualizada automaticamente todos os dias. Clique em um grupo para ver os p
 </details>
 
 <details>
-<summary><strong>HTML, CSS & PHP</strong> · 29 projetos</summary>
+<summary><strong>HTML, CSS & PHP</strong> · 30 projetos</summary>
 
 | Projeto | Sobre | Stack | Demo | Atualizado |
 | --- | --- | --- | --- | --- |
+| [luric-instagram](https://github.com/luuizz/luric-instagram) | — | HTML | — | nov/2026 |
 | [delavie](https://github.com/luuizz/delavie) | — | Sass, Gulp | — | nov/2025 |
 | [rcc-construtora](https://github.com/luuizz/rcc-construtora) | — | Sass, Gulp | — | out/2025 |
 | [granviver](https://github.com/luuizz/granviver) | — | Sass, Gulp | — | ago/2025 |
